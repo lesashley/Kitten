@@ -15,3 +15,15 @@ body{
   height: 100vh;
   overflow: hidden;
 }
+@media (max-width: 1000px){
+  body{
+    background-image: url(../assets/images/dawn.png);
+    background-size: cover;
+  }
+}
+@media (max-width: 450px){
+  body{
+    background-image: url(../assets/images/maxresdefault.jpg);
+    background-size: cover;
+  }
+}
